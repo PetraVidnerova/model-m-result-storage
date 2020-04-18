@@ -1,3 +1,6 @@
+#!/bin/bash
+shopt -s nullglob
+
 for I in *.csv
 do
 if ! test -e $I.zip; then
